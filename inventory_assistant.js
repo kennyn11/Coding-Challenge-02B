@@ -15,5 +15,5 @@ let reorderNow = currentStock <= reorderLevel || weeksOfCover < supplierLeadTime
 console.log("Item Name:", itemName)
 console.log("Weeks of cover:", weeksOfCover)
 console.log("When to reorder:", reorderLevel)
-console.log("Recommended amount to reorder:" reorderQuantity)
+console.log("Recommended amount to reorder:", reorderQuantity)
 console.log("Estimated Reorder Cost:", estimatedReorderCost)
